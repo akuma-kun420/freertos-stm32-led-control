@@ -1,0 +1,30 @@
+## 🛠️ Tools & Technologies
+
+### Hardware
+- **STM32 Nucleo-64 C031C6** — Main microcontroller development board
+- **Red LED** — LED sequence indication
+- **Green LED** — LED sequence indication
+- **220Ω Resistors** — LED current limiting
+- **16×2 I²C LCD** — Displays project status messages
+- **Push Buttons (2)** — LCD ON and LCD OFF control
+- **Mini Breadboard** — Circuit prototyping and component connections
+
+### Software & Development Tools
+- **C/C++** — Embedded application programming
+- **FreeRTOS** — Real-time operating system used for multi-tasking
+- **STM32 Arduino Framework** — Microcontroller programming framework
+- **PlatformIO** — Project configuration, library management, building, and firmware compilation
+- **VS Code** — Development environment
+- **Wokwi** — Online circuit design and STM32 simulation
+
+### Libraries
+- **STM32duino FreeRTOS** — FreeRTOS support for the STM32 Arduino framework
+- **LiquidCrystal_I2C** — Library for controlling the I²C LCD
+
+### Communication & Concepts
+- **I²C Communication** — Communication between the STM32 and LCD
+- **GPIO** — Digital LED and push-button control
+- **FreeRTOS Tasks** — Independent LED and LCD control tasks
+- **Task Scheduling** — Concurrent execution of multiple tasks
+- **`vTaskDelay()`** — Timing and task blocking within FreeRTOS
+- **Internal Pull-Up Resistors** — Push-button input handling
