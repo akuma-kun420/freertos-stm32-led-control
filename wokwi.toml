@@ -1,0 +1,3 @@
+[wokwi]
+version = 1
+firmware = ".pio/build/nucleo_c031c6/firmware.bin"
